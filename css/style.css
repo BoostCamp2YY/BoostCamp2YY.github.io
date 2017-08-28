@@ -275,9 +275,7 @@ a.btn-minimal{
 .intro-download-btns{
 	font-size:0;
 }
-.intro-download-btns > .app-btn{
-	margin-right:25px;
-}
+
 .intro-download-btns > .app-btn:last-of-type{
 	margin-right:0;
 }
@@ -295,7 +293,7 @@ a.btn-minimal{
 	display:block;
 }
 .features-text{
-	margin-top:100px;
+	margin-top:50px;
 	text-align:center;
 }
 .features-text > h2{
@@ -314,16 +312,22 @@ a.btn-minimal{
 
 
 .features-row{
-	margin-top:100px;
+	margin-top:10px;
 }
 .feature{
 	position:relative;
 }
 .feature > .icon{
-	font-size:54px;
-	margin-bottom:20px;
+	font-size:54px; 
 }
 .feature > .content > h4{
+	margin:0;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	margin-bottom:20px;
+	font-weight:500;
+}
+.feature > .content > h3{
 	margin:0;
 	text-transform:uppercase;
 	letter-spacing:2px;
@@ -360,18 +364,18 @@ a.btn-minimal{
 	position:relative;
 	text-align:center;
 	overflow:hidden;
-	height:490px;
+	height:440px;
 }
 .phones > .front{
 	position:relative;
 	z-index:5;
-	width:350px;
+	width:400px;
 	margin-right:-85px;
 }
 .phones > .back{
-	width:290px;
+	width:240px;
 	position:relative;
-	z-index:4;
+	z-index:3;
 	margin-left:-85px;
 }
 
@@ -498,7 +502,7 @@ a.btn-minimal{
 
 
 .features-4-section{
-	padding:100px 0;
+	padding:50px 0;
 }
 .features-phone{
 	max-width:340px;
