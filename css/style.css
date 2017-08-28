@@ -112,7 +112,7 @@ p{
 }
 
 .top-section-header > h2{
-	font-size:34px;
+	font-size:40px;
 	font-weight:700;
 	margin-top:0;
 	margin-bottom:10px;
@@ -533,13 +533,13 @@ a.btn-minimal{
 
 
 .pricing-section{
-	padding:100px 0;
+	padding:50px 0;
 }
 .pricing-section .col-section-header{
 	padding-top:50px;
 }
 .pricing-section .col-section-header > p{
-	margin-bottom:35px;
+	margin-bottom:1px;
 }
 
 
@@ -765,7 +765,7 @@ a.btn-minimal{
 	padding:100px 0;
 }
 .clients-section .top-section-header{
-	margin-bottom:80px;
+	margin-bottom:100px;
 }
 .clients{
 	margin:0;
@@ -859,8 +859,11 @@ a.btn-minimal{
 	font-size:16px;
 	margin-bottom:4px;
 }
-.faq > p{
-	color:rgba(0,0,0,.4);
+.faq > p{ 
+	font-size:16px;
+}
+.faq > ul{ 
+	font-size:18px;
 }
 
 .download-section{
