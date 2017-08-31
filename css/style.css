@@ -369,7 +369,14 @@ a.btn-minimal{
 .phones > .front{
 	position:relative;
 	z-index:5;
-	width:400px;
+	width:270px;
+	margin-right:-85px;
+}
+
+.phones > .front1{
+	position:relative;
+	z-index:5;
+	width:450px;
 	margin-right:-85px;
 }
 .phones > .back{
@@ -1266,6 +1273,9 @@ body.loaded #preloader{
 		height:auto;
 	}
 	.phones > .front{
+		width:55%;
+	}
+    .phones > .front1{
 		width:55%;
 	}
 	.phones > .back{
